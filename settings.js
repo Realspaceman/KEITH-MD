@@ -4,14 +4,14 @@
 
 const session = process.env.SESSION || '';
 
-const prefix = process.env.PREFIX || '';
-const mycode = process.env.CODE || "254";
+const prefix = process.env.PREFIX || ',';
+const mycode = process.env.CODE || "234";
 const author = process.env.OWNER_NAME || 'Keith';
 const packname = process.env.PACKNAME || 'keith';
-const dev = process.env.OWNER_NUMBER || '254748387615';
+const dev = process.env.OWNER_NUMBER || '2347011120010';
 const DevKeith = dev.split(",");
 const botname = process.env.BOTNAME || 'KEITH-MD';
-const mode = process.env.MODE || 'public';
+const mode = process.env.MODE || 'private';
 const gcpresence = process.env.GC_PRESENCE || 'false';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
@@ -23,11 +23,11 @@ const gurl = process.env.GURL || 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l
 const reactemoji = process.env.EMOJI || '💚';
 const antitag = process.env.ANTITAG || 'true';
 const groupControl = process.env.GROUP_CONTROL || 'true';
-const anticall = process.env.ANTICALL || 'true';
+const anticall = process.env.ANTICALL || 'false';
 const antidelete = process.env.ANTIDELETE || 'true';
-const autoview = process.env.AUTOVIEW_STATUS || 'true';
-const autolike = process.env.AUTOLIKE_STATUS || 'true';
-const autoread = process.env.AUTOREAD || 'true';
+const autoview = process.env.AUTOVIEW_STATUS || 'false';
+const autolike = process.env.AUTOLIKE_STATUS || 'false';
+const autoread = process.env.AUTOREAD || 'false';
 const anticallmsg = process.env.ANTICALL_MSG || 'Keith declined your 🤙 call';
 const autobio = process.env.AUTOBIO || 'false';
 
